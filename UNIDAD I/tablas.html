@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tablas</title>
+    </head>
+    <body>
+        <h3>Tabla Sencilla</h3>
+        <table border="1"><!-- Crea la tabla-->
+            <tr><!-- Define una fila en la tabla-->
+                <th>Estudiante</th><!-- TH se utiliza para definir el encabezado de la columna -->
+                <th>Edad</th>
+                <th>Ciudad</th>
+            </tr>
+            <tr>
+                <td>María Rojas</td><!-- Crea una celda de datos -->
+                <td>19</td>
+                <td>La Serena</td>
+            </tr>
+            <tr>
+                <td>Pedro Pereira</td>
+                <td>21</td>
+                <td>La Serena</td>
+            </tr>
+        </table>
+        <hr>
+        <h3>Tabla con celdas fusionadas</h3>
+        <table border="1">
+            <tr>
+              <td></td>
+              <td colspan="2">Desarrollo Web</td><!-- COLSPAN: Fusiona celdas de forma horizontal -->
+              <td colspan="2">Taller .NET</td>
+            </tr>
+            <tr>
+              <td rowspan="3">Datos de Estudiantes</td><!-- ROWSPAN: Fusiona celdas de forma vertical -->
+              <td>Nombre completo</td>
+              <td>Asistencia</td>
+              <td>Nombre completo</td>
+              <td>Asistencia</td>
+            </tr>
+            <tr>
+              <td>Rodrigo Cortés</td>
+              <td>90%</td>
+              <td>Manuel Salgado</td>
+              <td>80%</td>
+            </tr>
+            <tr>
+              <td>Miguel Morales</td>
+              <td>0%</td>
+              <td>David Rojo</td>
+              <td>100%</td>
+            </tr>
+        </table>
+    </body>
+</html>
