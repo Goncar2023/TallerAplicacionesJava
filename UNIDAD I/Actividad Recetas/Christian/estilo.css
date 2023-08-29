@@ -1,0 +1,110 @@
+@font-face{
+    font-family:tarif;
+    src: url(TarifArabic-Regular.ttf)
+}
+@font-face {
+    font-family: caviar;
+    src: url(CaviarDreams.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(fondo2.jpg);   
+    height: 1800px;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.cuadro {
+    width: 400px;
+    margin: 7em auto;
+    padding: 1em;
+    background-color: #fdfdff;
+    border-radius: 0.5em;
+    box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+    text-align: center;
+    }
+.blanco{
+    color: white;
+}
+.titulo {
+    color: white;
+    padding: 0.5em;
+    font-family: caviar;
+    text-align: center;
+    font-size: 300%;
+}
+.texto {
+    color: white;
+    margin:auto;
+    margin-left: 450px;
+    font-family: caviar;
+    font-size: 200%;
+}
+.dificultad{
+    justify-content: center ;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.divDificultad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: caviar; 
+    color: white;
+    font-size: 120%;
+}
+.ingredientes{
+    padding: 1em;
+    margin:auto;
+    margin-left: 200px;
+    border-radius: 0.5em;
+    width: 400px;
+    height: 600px;
+    font-family: caviar;
+    font-size: 150%;
+    color: white;
+}
+.reloj{
+    display: flex;
+    margin:auto;
+    margin-top: -600px;
+    margin-right: 200px;
+    width: 300px;
+    height: 100px;
+    font-family: caviar;
+    color: white;
+    font-size: 150%;
+}
+.porcion{
+    display: flex;
+    margin:auto;
+    margin-top: -20px;
+    margin-right: 200px;
+    width: 300px;
+    height: 100px;
+    font-family: caviar;
+    color: white;
+    font-size: 150%;
+}
+.preparacion{
+    margin: auto;
+    padding: 1em;
+    width: 800px;
+    height: 500px;
+    font-family: caviar;
+    color: white;
+    font-size: 150%;
+}
+iframe{
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 400px;
+    border: 0.1px;
+}
+ 

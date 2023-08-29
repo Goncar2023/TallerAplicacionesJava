@@ -1,0 +1,82 @@
+*{
+	text-transform: capitalize;
+	text-decoration:none;
+	outline:none;
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+header {
+	width:100%;
+	background:#161e4a;
+	position:fixed;
+	display:flex;
+	align-items:center;
+    justify-content: space-between;
+	padding: 1rem 2rem;
+	z-index:100;
+}
+
+header .logo {
+
+	font-size: 2.5rem;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+
+body{
+    background-color:khaki;
+    font-family: sans-serif;
+}
+
+.inicio .inicio{
+
+	padding-top: 10rem;
+    padding-bottom: 2rem;
+	text-align:center;
+
+    
+}
+
+img{
+    padding-left: 27rem;
+	padding-bottom: 2rem;
+
+}
+
+.dyt .dyt{
+
+    align-items:center;
+	justify-content:center;
+	flex-flow:column;
+	text-align: center;
+    padding-top: 2rem;
+	padding-bottom: 2rem;
+	border: 1px solid #000;
+}
+
+.ingredientes .ingredientes{
+	
+    align-items:center;
+	justify-content:center;
+	flex-flow:column;
+	text-align: center;
+    padding-top: 2rem;
+	padding-bottom: 2rem;
+	border: 1px solid #000;
+
+}
+
+.PaP .PaP{
+	
+    align-items:center;
+	justify-content:center;
+	flex-flow:column;
+	text-align: center;
+    padding-top: 2rem;
+	padding-bottom: 2rem;
+	border: 1px solid #000;
+
+}
