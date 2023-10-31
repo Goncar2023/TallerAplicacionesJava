@@ -5,22 +5,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>PHP</title>
         <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/menu.css">
         <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js"></script>
     </head>
     <body>
         <div class="content">
-            <div class="menu">
-                <ul>
-                    <li><a href="#" class="activo" onclick="cargar('variables.php')">Variables</a></li>
-                    <li><a href="#" onclick="cargar('operadores.php')">Operadores</a></li>
-                    <li><a href="#" onclick="cargar('condicionales.php')">Condicionales</a></li>
-                    <li><a href="#" onclick="cargar('bucles.php')">Bucles</a></li>
-                    <li><a href="#" onclick="cargar('funciones.php')">Funciones</a></li>
-                    <li><a href="#" onclick="cargar('funcionesIncorp.php')">Funciones Nativas</a></li>
-                    <li><a href="#" onclick="cargar('formularios.php')">Formularios</a></li>
-                </ul>
+            <div class="menu-container">
+                <div class="menu">
+                    <a href="#" class="activo" onclick="cargar('variables.php')">Variables</a>
+                    <a href="#" onclick="cargar('operadores.php')">Operadores</a>
+                    <a href="#" onclick="cargar('condicionales.php')">Condicionales</a>
+                    <a href="#" onclick="cargar('bucles.php')">Bucles</a></li>
+                    <a href="#" onclick="cargar('funciones.php')">Funciones</a>
+                    <a href="#" onclick="cargar('funcionesIncorp.php')">Funciones Nativas</a>
+                    <a href="#" onclick="cargar('arrays.php')">Arrays</a>
+                    <a href="#" onclick="cargar('arraysAsociativos.php')">Arrays Asociativos</a>
+                    <a href="#" onclick="cargar('formularios.php')">Formularios</a>
+                </div>
+                <div class="menu-toggle" id="mobile-menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
             </div>
-            <div id="contenido">
+             <div id="contenido">
                 <!-- El contenido se cargará aquí -->
             </div>
         </div>
@@ -29,7 +37,7 @@
         </footer>
         <script>
             window.onload = function() {
-                var enlace = document.querySelector('.menu ul li a');
+                var enlace = document.querySelector('.menu a');
                 enlace.classList.add('activo');
                 cargar(enlace.getAttribute('onclick').split("'")[1]);
             };

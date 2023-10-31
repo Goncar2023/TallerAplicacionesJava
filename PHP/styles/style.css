@@ -5,41 +5,12 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+
 .content {
     flex: 1;
     padding: 20px;
 }
 
-.menu {
-    background-color: #004169;
-    overflow: hidden;
-}
-
-.menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.menu ul li {
-    float: left;
-}
-
-.menu ul li a.activo {
-    color: white;
-}
-
-.menu ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.menu ul li a:hover {
-    background-color: #005DA1;
-}
 
 #contenido {
     margin: 20px;
