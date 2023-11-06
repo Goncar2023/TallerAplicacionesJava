@@ -1,0 +1,23 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100% !important;
+}
+
+.contenido {
+    text-align: center; /* Alinea el contenido horizontalmente */
+}
+
+.espaciado {
+    text-indent: 30px; /* Establece un espacio en blanco de 30 píxeles al principio del párrafo */
+}
+
+.espaciadoExtra {
+    text-indent: 60px; /* Establece un espacio en blanco de 30 píxeles al principio del párrafo */
+}
+
+.extraSpace {
+    text-indent: 90px; /* Establece un espacio en blanco de 30 píxeles al principio del párrafo */
+}
